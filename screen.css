@@ -75,14 +75,6 @@ ul {
   font-family: Georgia, serif;
 }
 
-ol {
-  list-style-type: decimal;
-}
-
-ul {
-  list-style-type: square;
-}
-
 li ol,
 li ul {
   padding-left: 1.1em; /* 22/20 = 1.1 */
@@ -124,6 +116,14 @@ figcaption {
 
 section{
   height: 100vh;
+}
+
+form ul li{
+    padding-bottom: 1.1em;
+}
+
+input {
+  padding: 1em;
 }
 
 /* Responsive Media */
