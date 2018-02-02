@@ -142,7 +142,7 @@ audio {
   width: 100%;
   top: 0;
   left: 0;
-  background-color: #141E30;
+  background-color: gold;
 }
 
 #navigation ul,
@@ -157,11 +157,11 @@ audio {
 }
 
 #navigation ul {
-  background: #141E30;
+  background: gold;
 }
 
 #navigation li {
-  background: #141E30;
+  background: gold;
   float: left;
   width: 33.33333333%;
 }
@@ -169,19 +169,12 @@ audio {
 #navigation a {
   display: block;
   width: 100%;
-  color: #FFFFFF;
+  color: #000000;
   text-decoration: none;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   text-align: center;
   padding-top: 0.55em; /* 11/20 = 0.55 */
   padding-bottom: 0.55em; /* 11/20 = 0.55 */
-}
-
-#home #nav-home,
-#resume #nav-features,
-#projects #nav-sign-up {
-  border-bottom-color: #1DA2F4;
-  border-bottom: 0.25em solid #1DA2F4; /* 5/20 = 0.25em */
 }
 
 /* Modular Styles */
