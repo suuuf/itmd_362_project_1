@@ -16,12 +16,11 @@ html {
 }
 
 body {
-  padding-top: 3.3em; /* 66/20 = 3.3em */
+  
 }
 
 main {
-  padding-right: 1.65em; /* 33/20 = 1.65em */
-  padding-left: 1.65em; /* 33/20 = 1.65em */
+  
 }
 
 h1,
@@ -126,6 +125,21 @@ input {
   padding: 1em;
 }
 
+header{
+  display: none;
+}
+
+button{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #000000;
+  font-size: inherit;
+  background-color: gold;
+  border-radius: 4px;
+}
+
 /* Responsive Media */
 
 img,
@@ -181,10 +195,13 @@ audio {
   display: table-cell;
   vertical-align:middle;
   text-align: center;
+  background-color: #000000;
 }
 
-#splash-content h1{
-  letter-spacing: -1px;
+#splash-content{
+  color:#FFFFFF;
+  padding-left: 0.55em;
+  padding-right: 0.55em;
 }
 
 /* Modular Styles */
