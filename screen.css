@@ -122,6 +122,10 @@ figcaption {
   text-align: center;
 }
 
+section{
+  height: 100vh;
+}
+
 /* Responsive Media */
 
 img,
@@ -179,6 +183,7 @@ audio {
   border-bottom-color: #1DA2F4;
   border-bottom: 0.25em solid #1DA2F4; /* 5/20 = 0.25em */
 }
+
 /* Modular Styles */
 
 /* State Styles */
