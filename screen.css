@@ -191,17 +191,26 @@ audio {
   padding-bottom: 0.55em; /* 11/20 = 0.55 */
 }
 
-#splash{
+#splash {
   display: table-cell;
   vertical-align:middle;
   text-align: center;
   background-color: #000000;
 }
 
-#splash-content{
+#splash-content {
   color:#FFFFFF;
   padding-left: 0.55em;
   padding-right: 0.55em;
+  padding-top: 0.55em;
+  padding-bottom: 0.55em;
+}
+
+#splash-content img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
 }
 
 /* Modular Styles */
