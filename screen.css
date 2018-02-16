@@ -114,7 +114,7 @@ figcaption {
 }
 
 section{
-  height: 100vh;
+  padding: 50px;
 }
 
 form ul li{
