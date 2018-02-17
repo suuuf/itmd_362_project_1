@@ -115,6 +115,7 @@ figcaption {
 
 section{
   padding: 50px;
+  width: 100vw;
 }
 
 form ul li{
