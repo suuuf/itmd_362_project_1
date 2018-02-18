@@ -8,11 +8,21 @@ $("#contact-form").on("submit",
     if (email.length > 0) {
       if (!emailRegex.test(email)) {
         console.log("Invalid Email");
+        if (!$("#email-section").find("li").hasClass("error")){
+          $("#email-section").append("<li class='error'>Invalid email address.</li>");
+          $("#email").css("border-color","red");
+        }
       } else {
         console.log("Valid Email; Submitting Form");
+        $("#email-section").find(".error").remove();
+        $("#email").css("border-color","grey");
       }
     } else {
       console.log("Empty Email");
+      if (!$("#email-section").find("li").hasClass("error")){
+        $("#email-section").append("<li class='error'>Invalid email address.</li>");
+        $("#email").css("border-color","red");
+      }
     }
   }
 );
