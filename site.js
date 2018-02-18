@@ -8,7 +8,7 @@ $("#contact-form").on("submit",
     if (email.length > 0) {
       if (!emailRegex.test(email)) {
         console.log("Invalid Email");
-        if (!$("#email-section").find("li").hasClass("error")){
+        if (!$("#email-section").find("li").hasClass("error")) {
           $("#email-section").append("<li class='error'>Invalid email address.</li>");
           $("#email").css("border-color", "red");
         }
@@ -21,7 +21,7 @@ $("#contact-form").on("submit",
       }
     } else {
       console.log("Empty Email");
-      if (!$("#email-section").find("li").hasClass("error")){
+      if (!$("#email-section").find("li").hasClass("error")) {
         $("#email-section").append("<li class='error'>Invalid email address.</li>");
         $("#email").css("border-color", "red");
       }
