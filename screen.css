@@ -293,48 +293,6 @@ audio {
 
 /* Layout Styles */
 
-#navigation {
-  position: absolute;
-  width: 100%;
-  top: 0;
-  left: 0;
-  background-color: #FED631;
-}
-
-#navigation ul,
-#navigation li {
-  list-style-type: none;
-  padding-bottom: 0;
-  border: none;
-}
-
-#navigation #name {
-  font-weight: bold;
-}
-
-#navigation ul {
-  background: #FED631;
-}
-
-#navigation li {
-  background: #FED631;
-  float: left;
-  width: 33.33333333%;
-}
-
-#navigation a {
-  display: block;
-  width: 100%;
-  color: #000000;
-  text-decoration: none;
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
-  text-align: center;
-  padding-top: 0.55em;
-  /* 11/20 = 0.55 */
-  padding-bottom: 0.55em;
-  /* 11/20 = 0.55 */
-}
-
 #splash {
   vertical-align: middle;
   text-align: center;
