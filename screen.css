@@ -16,12 +16,10 @@ html {
 }
 
 body {
-    font-family: 'Slabo 27px', serif;
+  font-family: 'Slabo 27px', serif;
 }
 
-main {
-  
-}
+main {}
 
 h1,
 h2,
@@ -107,15 +105,15 @@ figcaption {
   text-align: center;
 }
 
-section{
+section {
   width: 100vw;
 }
 
-form ul li{
-    padding-bottom: 1.1em;
+form ul li {
+  padding-bottom: 1.1em;
 }
 
-header{
+header {
   display: none;
 }
 
@@ -135,6 +133,7 @@ audio {
 }
 
 /* Layout Styles */
+
 #navigation {
   position: absolute;
   width: 100%;
@@ -171,26 +170,28 @@ audio {
   text-decoration: none;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   text-align: center;
-  padding-top: 0.55em; /* 11/20 = 0.55 */
-  padding-bottom: 0.55em; /* 11/20 = 0.55 */
+  padding-top: 0.55em;
+  /* 11/20 = 0.55 */
+  padding-bottom: 0.55em;
+  /* 11/20 = 0.55 */
 }
 
 #splash {
   display: table-cell;
-  vertical-align:middle;
+  vertical-align: middle;
   text-align: center;
   background-color: #000000;
 }
 
 #splash-content {
-  color:#FFFFFF;
+  color: #FFFFFF;
   padding-left: 0.55em;
   padding-right: 0.55em;
   padding-top: 0.55em;
   padding-bottom: 0.55em;
 }
 
-#splash-content img{
+#splash-content img {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -205,13 +206,13 @@ audio {
 }
 
 #submit {
-    margin-top: 10px;
-    color:#000;
-    cursor:pointer;
-    background-color: gold;
-    border-radius: 5px;
-    border: 1px grey solid;
-    padding: 10px 72.5px 10px 72.5px;
+  margin-top: 10px;
+  color: #000;
+  cursor: pointer;
+  background-color: gold;
+  border-radius: 5px;
+  border: 1px grey solid;
+  padding: 10px 72.5px 10px 72.5px;
 }
 
 #email {
@@ -229,18 +230,19 @@ audio {
 /* Modular Styles */
 
 /* State Styles */
+
 @media only screen and (min-width: 1000px) {
-  
+
   #splash-content img {
     width: 400px;
   }
-  
+
 }
 
 @media only screen and (min-width: 550px) {
-    #submit {
-    color:#000;
-    cursor:pointer;
+  #submit {
+    color: #000;
+    cursor: pointer;
     background-color: gold;
     border-radius: 5px;
     border: 1px grey solid;
@@ -248,18 +250,18 @@ audio {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     margin-left: -4px;
-}
+  }
 
-#email {
-  display: inline;
-  margin: auto;
-  cursor: text;
-  padding: 15px 10px 15px 10px;
-  text-align: left;
-  border: 1px grey solid;
-  border-right: 0;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
-  width: 300px;
-}
+  #email {
+    display: inline;
+    margin: auto;
+    cursor: text;
+    padding: 15px 10px 15px 10px;
+    text-align: left;
+    border: 1px grey solid;
+    border-right: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 300px;
+  }
 }
