@@ -115,6 +115,11 @@ header {
   display: none;
 }
 
+input {
+  -webkit-appearance: none;
+  -webkit-border-radius:0;
+}
+
 label {
   text-align: left;
   display: block;
