@@ -205,18 +205,22 @@ audio {
     background-color: gold;
     border-radius: 5px;
     border: 1px grey solid;
-    padding: 5px 30px 5px 30px;
-    box-shadow: -1px 0px 16px 0px rgba(0,0,0,0.26);
-    font-size: 20px;
+    padding: 10px 30px 10px 30px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-left: -4px;
 }
 
 #email {
-  display: block;
+  display: inline;
   margin: auto;
   cursor: text;
   padding: 10px 40px 10px 10px;
   text-align: left;
   border: 1px grey solid;
+  border-right: 0;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
 
