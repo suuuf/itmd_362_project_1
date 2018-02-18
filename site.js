@@ -1,4 +1,5 @@
 $("#contact-form").on("submit",
-  function (e) {}
+  function (e) {
     e.preventDefault();
+  }
 );
