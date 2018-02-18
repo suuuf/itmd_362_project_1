@@ -344,6 +344,7 @@ audio {
   vertical-align: middle;
   text-align: center;
   background-color: #000000;
+  border-bottom: 0.5em #FED631 solid;
 }
 
 #splash-content {
