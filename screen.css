@@ -267,7 +267,7 @@ figcaption {
   text-align: center;
 }
 
-section {
+main {
   width: 100vw;
 }
 
@@ -336,7 +336,6 @@ audio {
 }
 
 #splash {
-  display: table-cell;
   vertical-align: middle;
   text-align: center;
   background-color: #000000;
@@ -358,9 +357,8 @@ audio {
 
 #sign-up {
   text-align: left;
-  padding-right: 1.5em; /* 30/20 = 1.5em */
-  padding-left: 1.5em; /* 30/20 = 1.5em */
-  padding-top: 1.5em; /* 30/20 = 1.5em */
+  margin-top: 1.5em; /* 30/20 = 1.5em */
+  margin-left: 0.25em;
 }
 
 #submit {
@@ -405,12 +403,6 @@ audio {
 
 /* State Styles */
 
-@media only screen and (min-width: 1000px) {
-  #splash img {
-    width: 20em; /* 400/20 = 20em */
-  }
-}
-
 
 @media only screen and (min-width: 550px) {
 
@@ -420,6 +412,7 @@ audio {
 
   #sign-up {
     text-align: center;
+    margin-left: 0;
   }
 
   #submit {
@@ -439,6 +432,12 @@ audio {
     width: 20em; /* 400/20 = 15em */
   }
 
+  @media only screen and (min-width: 1000px) {
+    #splash img {
+      width: 20em; /* 400/20 = 20em */
+    }
+  }
+  
   @media only screen and (min-width: 1280px) {
 
     #email {
