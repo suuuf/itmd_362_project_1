@@ -391,18 +391,18 @@ audio {
 }
 
 .error {
-  margin-top: 5px;
-  color:red;
+  margin-top: 0.25em; /* 5/20 = 0.25em */
+  color: #CC0000;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 .success {
-  color: green;
+  color: #4BB543;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 .gold {
-  color:#FED631;
+  color: #FED631;
   font-weight: bold;
 }
 
@@ -443,7 +443,7 @@ audio {
     border-bottom-left-radius: 0.25em; /* 5/20 = 0.25em */
     width: 20em; /* 400/20 = 15em */
   }
-  
+
   @media only screen and (min-width: 1280px) {
 
     #email {
