@@ -200,6 +200,38 @@ audio {
 }
 
 #submit {
+    margin-top: 10px;
+    color:#000;
+    cursor:pointer;
+    background-color: gold;
+    border-radius: 5px;
+    border: 1px grey solid;
+    padding: 10px 30px 10px 30px;
+}
+
+#email {
+  display: block;
+  margin: auto;
+  cursor: text;
+  padding: 10px 40px 10px 10px;
+  text-align: left;
+  border: 1px grey solid;
+}
+
+
+/* Modular Styles */
+
+/* State Styles */
+@media only screen and (min-width: 1000px) {
+  
+  #splash-content img {
+    width: 400px;
+  }
+  
+}
+
+@media only screen and (min-width: 500px) {
+    #submit {
     color:#000;
     cursor:pointer;
     background-color: gold;
@@ -222,13 +254,4 @@ audio {
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
-
-
-/* Modular Styles */
-
-/* State Styles */
-@media only screen and (min-width: 1000px) {
-  #splash-content img {
-    width: 400px;
-  }
 }
