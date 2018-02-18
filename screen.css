@@ -118,6 +118,7 @@ header {
 }
 
 label {
+  text-align: left;
   display: block;
   padding-bottom: 5px;
 }
@@ -199,7 +200,7 @@ audio {
 }
 
 #sign-up-content {
-  text-align: center;
+  text-align: left;
   padding-right: 30px;
   padding-left: 30px;
   padding-top: 30px;
@@ -217,7 +218,6 @@ audio {
 
 #email {
   display: block;
-  margin: auto;
   cursor: text;
   padding: 10px 10px 10px 10px;
   width: 80%;
@@ -240,6 +240,15 @@ audio {
 }
 
 @media only screen and (min-width: 550px) {
+  
+  label {
+    text-align: center;
+  }
+  
+  #sign-up-content {
+    text-align: center;
+  }
+  
   #submit {
     color: #000;
     cursor: pointer;
