@@ -2,7 +2,7 @@ $("html").removeClass("nojs").addClass("js");
 
 $("#contact-form").on("submit",
   function (e) {
-    var emailRegex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+    var emailRegex = /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
     var email = $("#email").val();
     e.preventDefault();
     if (email.length > 0) {
@@ -17,7 +17,7 @@ $("#contact-form").on("submit",
         $("#email-section").find(".error").remove();
         $("#email").css("border-color", "grey");
         $("#contact-form").remove();
-        $("#sign-up-content").append("<h2 class='success'>Signup successful!</h2>");
+        $("#sign-up").append("<h2 class='success'>Signup successful!</h2>");
       }
     } else {
       console.log("Empty Email");
