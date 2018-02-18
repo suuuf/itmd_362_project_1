@@ -227,7 +227,12 @@ audio {
 .error {
   margin-top: 5px;
   color:red;
-  font-family: sans-serif;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.success {
+  color: green;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 /* Modular Styles */

@@ -16,6 +16,8 @@ $("#contact-form").on("submit",
         console.log("Valid Email; Submitting Form");
         $("#email-section").find(".error").remove();
         $("#email").css("border-color","grey");
+        $("#contact-form").remove();
+        $("#sign-up-content").append("<h2 class='success'>Signup successful!</h2>");
       }
     } else {
       console.log("Empty Email");
