@@ -138,7 +138,7 @@ audio {
   width: 100%;
   top: 0;
   left: 0;
-  background-color: gold;
+  background-color: #FED631;
 }
 
 #navigation ul,
@@ -153,11 +153,11 @@ audio {
 }
 
 #navigation ul {
-  background: gold;
+  background: #FED631;
 }
 
 #navigation li {
-  background: gold;
+  background: #FED631;
   float: left;
   width: 33.33333333%;
 }
@@ -208,7 +208,7 @@ audio {
   margin-top: 0.5em; /* 10/20 = 0.5em */
   color: #000;
   cursor: pointer;
-  background-color: gold;
+  background-color: #FED631;
   border-radius: 0.25em; /* 5/20 = 0.25em */
   border: 0.05em grey solid; /* 1/20 = 0.05em */
   padding: 0.5em 3.5em 0.5em 3.5em;
@@ -238,7 +238,7 @@ audio {
 }
 
 .gold {
-  color:gold;
+  color:#FED631;
   font-weight: bold;
 }
 
