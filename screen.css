@@ -119,6 +119,11 @@ header{
   display: none;
 }
 
+label {
+  display: block;
+  padding-bottom: 5px;
+}
+
 /* Responsive Media */
 
 img,
@@ -214,9 +219,10 @@ audio {
   margin: auto;
   cursor: text;
   padding: 10px 10px 10px 10px;
-  width: 200px;
+  width: 80%;
   text-align: left;
   border: 1px grey solid;
+  border-radius: 3px;
 }
 
 
