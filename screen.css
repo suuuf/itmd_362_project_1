@@ -16,10 +16,8 @@ html {
 }
 
 body {
-  font-family: 'Slabo 27px', serif;
+  font-family: "Slabo 27px", serif;
 }
-
-main {}
 
 h1,
 h2,
@@ -37,7 +35,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Acme', sans-serif;
+  font-family: Acme, sans-serif;
 }
 
 h1 {
@@ -232,23 +230,20 @@ audio {
 /* State Styles */
 
 @media only screen and (min-width: 1000px) {
-
   #splash-content img {
     width: 400px;
   }
-
 }
 
 @media only screen and (min-width: 550px) {
-  
   label {
     text-align: center;
   }
-  
+
   #sign-up-content {
     text-align: center;
   }
-  
+
   #submit {
     color: #000;
     cursor: pointer;
