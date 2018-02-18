@@ -1,4 +1,4 @@
-$('html').removeClass('nojs').addClass('js');
+$("html").removeClass("nojs").addClass("js");
 
 $("#contact-form").on("submit",
   function (e) {
