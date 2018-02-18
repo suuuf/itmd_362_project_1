@@ -206,14 +206,15 @@ audio {
     background-color: gold;
     border-radius: 5px;
     border: 1px grey solid;
-    padding: 10px 30px 10px 30px;
+    padding: 10px 72.5px 10px 72.5px;
 }
 
 #email {
   display: block;
   margin: auto;
   cursor: text;
-  padding: 10px 40px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  width: 200px;
   text-align: left;
   border: 1px grey solid;
 }
@@ -230,14 +231,14 @@ audio {
   
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 550px) {
     #submit {
     color:#000;
     cursor:pointer;
     background-color: gold;
     border-radius: 5px;
     border: 1px grey solid;
-    padding: 10px 30px 10px 30px;
+    padding: 15px 30px 15px 30px;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     margin-left: -4px;
@@ -247,11 +248,12 @@ audio {
   display: inline;
   margin: auto;
   cursor: text;
-  padding: 10px 40px 10px 10px;
+  padding: 15px 10px 15px 10px;
   text-align: left;
   border: 1px grey solid;
   border-right: 0;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
+  width: 300px;
 }
 }
