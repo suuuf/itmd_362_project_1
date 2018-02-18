@@ -212,6 +212,7 @@ audio {
   border-radius: 0.25em; /* 5/20 = 0.25em */
   border: 0.05em grey solid; /* 1/20 = 0.05em */
   padding: 0.5em 3.5em 0.5em 3.5em;
+  font-size: inherit;
 }
 
 #email {
@@ -222,6 +223,7 @@ audio {
   text-align: left;
   border: 0.05em grey solid; /*1/20 = 0.05em */
   border-radius: 0.15em; /* 3/20 = 0.15em */
+  font-size: inherit;
 }
 
 .error {
@@ -235,6 +237,11 @@ audio {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
+.gold {
+  color:gold;
+  font-weight: bold;
+}
+
 /* Modular Styles */
 
 /* State Styles */
@@ -244,6 +251,7 @@ audio {
     width: 20em; /* 400/20 = 20em */
   }
 }
+
 
 @media only screen and (min-width: 550px) {
 
@@ -256,9 +264,6 @@ audio {
   }
 
   #submit {
-    color: #000;
-    cursor: pointer;
-    background-color: gold;
     padding: 0.75em 1.5em 0.75em 1.5em;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
@@ -268,13 +273,22 @@ audio {
   #email {
     display: inline;
     margin: auto;
-    cursor: text;
     padding: 0.75em 0.5em 0.75em 0.5em;
-    text-align: left;
-    border: 0.05em grey solid; /*1/20 = 0.05em */
     border-right: 0;
     border-top-left-radius: 0.25em; /* 5/20 = 0.25em */
     border-bottom-left-radius: 0.25em; /* 5/20 = 0.25em */
     width: 20em; /* 400/20 = 15em */
+  }
+  
+  @media only screen and (min-width: 1280px) {
+
+    #email {
+      padding: 1.3em 1.3em 1.3em 1.3em;
+      width: 35em; /* 700/20 = 15em */
+    }
+
+    #submit {
+      padding: 1.3em 3em 1.3em 3em;
+    }
   }
 }
