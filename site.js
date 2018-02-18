@@ -1,3 +1,5 @@
+$('html').removeClass('nojs').addClass('js');
+
 $("#contact-form").on("submit",
   function (e) {
     e.preventDefault();
